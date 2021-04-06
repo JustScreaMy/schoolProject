@@ -72,9 +72,7 @@ footer {
 	background-color: #577fb5;
 	border-radius: 15px;
 }
-#showNav {
-	display: none;
-}
+
 @media screen and (max-width: 900px) {
 	body {
 		width: 100%;
@@ -96,13 +94,7 @@ footer {
 	#time {
 		display: none;
 	}
-	#showNav {
-		display: inline;
-		text-align: right;
-		font-size: x-large;
-		padding-right: 15px;
-		float: right;
-	}
+
 	h1 {
 		padding-left: 15px;
 	}
