@@ -8,6 +8,7 @@ body {
 	text-align: right;
 	font-size: x-large;
 	padding: 5px;
+	margin-top: 20px;
 	float: right;
 }
 h1 {
@@ -72,13 +73,18 @@ footer {
 	background-color: #577fb5;
 	border-radius: 15px;
 }
-
+#showNav {
+	display: none;
+}
 @media screen and (max-width: 900px) {
 	body {
 		width: 100%;
 	}
 }
 @media screen and (max-width: 720px) {
+	nav {
+		display: none;
+	}
 	nav ul li {
 		display: block;
 	}
@@ -94,8 +100,19 @@ footer {
 	#time {
 		display: none;
 	}
-
+	#showNav {
+		display: inline;
+		text-align: right;
+		font-size: x-large;
+		margin-right: 15px;
+		position: absolute;
+		right: 5px;
+		top: 25px;
+		float: right;
+	}
 	h1 {
-		padding-left: 15px;
+		float: none;
+		margin-top: 20px;
+		margin-left: 15px;
 	}
 }
