@@ -1,6 +1,6 @@
 const timeElement = document.getElementById("time");
-const nav = document.getElementsByTagName("nav")[0];
-const childNav = nav.getElementsByTagName("ul")[1].getElementsByTagName("li");
+const nav = document.querySelector("nav"); // querySelector
+const childNav = nav.querySelectorAll("nav  ul  li  ul  li");
 const showNav = document.getElementById("showNav");
 
 const hideNav = () => {
