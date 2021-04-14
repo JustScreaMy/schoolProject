@@ -4,6 +4,12 @@ body {
 	margin: auto;
 	background-color: #acc7eb;
 }
+.wrapper {
+	margin: 10px auto;
+	padding: 4px 20px;
+	background-color: #577fb5;
+	border-radius: 15px;
+}
 #time {
 	text-align: right;
 	font-size: x-large;
@@ -55,8 +61,19 @@ nav ul li:hover ul {
 	border-radius: 5px;
 	width: fit-content;
 }
-section {
-	border-radius: 15px;
+
+table {
+	min-width: 50%;
+	text-align: center;
+}
+td,
+th {
+	width: 33%;
+}
+th,
+td,
+table {
+	padding: 10px;
 }
 footer {
 	width: fit-content;
@@ -67,12 +84,7 @@ footer {
 .left {
 	text-align: left;
 }
-.wrapper {
-	margin: 10px auto;
-	padding: 4px 20px;
-	background-color: #577fb5;
-	border-radius: 15px;
-}
+
 #showNav {
 	display: none;
 }
@@ -109,6 +121,7 @@ footer {
 		right: 5px;
 		top: 25px;
 		float: right;
+		cursor: pointer;
 	}
 	h1 {
 		float: none;

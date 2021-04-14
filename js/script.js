@@ -1,5 +1,5 @@
 const timeElement = document.getElementById("time");
-const nav = document.querySelector("nav"); // querySelector
+const nav = document.querySelector("nav");
 const childNav = nav.querySelectorAll("nav  ul  li  ul  li");
 const showNav = document.getElementById("showNav");
 
