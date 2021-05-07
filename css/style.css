@@ -3,7 +3,7 @@ body {
 	font-family: Calibri, sans-serif;
 	width: 80%;
 	margin: auto;
-	background-color: #acc7eb;
+	background-color: #80a4d5;
 }
 .wrapper {
 	margin: 10px auto;
@@ -17,7 +17,6 @@ body {
 	text-align: center;
 	max-width: 100%;
 }
-
 #time {
 	text-align: right;
 	font-size: x-large;
@@ -85,7 +84,7 @@ th,
 td,
 table {
 	padding: 10px;
-	border: 2px black solid;
+	border: 1px black solid;
 	border-collapse: collapse;
 }
 footer {
