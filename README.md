@@ -2,7 +2,7 @@
 
 ## Odkaz
 
-[**Klik**](https://peceni.jednoduse.cz)
+[**Klik**](http://peceni.jednoduse.cz)
 
 ## Zadání
 
