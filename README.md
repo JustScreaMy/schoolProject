@@ -46,13 +46,13 @@
 ## Stránky
 
 - Úvod
-- Nástroje
-  - Text
-  - Pár obrázků
 - Mé recepty / výtvory
   - Obrázky
 - Galerie / **Doporučené strénky**
   - Obrázky
+- Zdravě
+  - Text
+  - Pár obrázků
 - Doporučení / _Formulář na nové recepty_
   - Text
   - Odkazy

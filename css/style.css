@@ -2,13 +2,17 @@
 body {
 	font-family: Calibri, sans-serif;
 	width: 80%;
+	height: 100vh;
 	margin: auto;
-	background-color: #80a4d5;
+	background-image: url("/images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .wrapper {
 	margin: 10px auto;
 	padding: 4px 20px;
-	background-color: #577fb5;
+	background-color: #577fb5cc;
 	border-radius: 15px;
 }
 .wrapper img {
@@ -38,7 +42,7 @@ nav {
 	top: 0;
 	width: 100%;
 	text-align: center;
-	background-color: #577fb5;
+	background-color: #577fb5cc;
 	border-radius: 15px;
 }
 nav ul {
@@ -100,21 +104,22 @@ footer {
 #showNav {
 	display: none;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 	body {
 		width: 100%;
 	}
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 795px) {
 	nav {
 		display: none;
+		position: relative;
 	}
 	nav ul li {
 		display: block;
 	}
 	nav ul li ul {
 		display: block;
-		background-color: #80a4d5;
+		background-color: #80a4d5cc;
 		padding: 15px;
 	}
 	nav ul li:hover ul {
