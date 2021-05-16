@@ -6,6 +6,7 @@
     <title>Recepty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
@@ -35,21 +36,76 @@
         <div class="wrapper">
             <article id="slozky">
                 <h2 class="center">Složky potravin</h2>
+                <section>
+                    <h3 class="center">Sacharidy</h3>
+                    Nejčastěji se nachází se v:
+                    <ul>
+                        <li>Řepný a třtinový cukr</li>
+                        <li>Mléko</li>
+                        <li>Med</li>
+                        <li>Ovoce</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3 class="center">Bílkoviny</h3>
+                    Nejčastěji se nachází se v:
+                    <ul>
+                        <li>Maso</li>
+                        <li>Vejce</li>
+                        <li>Mléčné výrobky</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3 class="center">Tuky</h3>
+                    Nejčastěji se nachází se v:
+                    <ul>
+                        <li>Maso</li>
+                        <li>Mléčné produkty</li>
+                        <li>Sádla</li>
+                        <li>Másla</li>
+                    </ul>
+                </section>
             </article>
         </div>
         <div class="wrapper">
-            <article id="alternativy">
-                <h2 class="center">Alternativy</h2>
+            <article id="alternativy" class="center">
+                <h2>Alternativy</h2>
+                <a href="/images/alternativy/1.jpg" data-lightbox="alternativy"
+                    data-title="Cukr lze nahradit medem nebo čekánkovým sirupem">
+                    <img src="/images/alternativy/thumb_1.jpg">
+                </a>
+                <a href="/images/alternativy/2.jpg" data-lightbox="alternativy"
+                    data-title="Mouka jde nahradit kokosovou / pohankovou moukou nebo třeba i ovesnými vločky">
+                    <img src="/images/alternativy/thumb_2.jpg">
+                </a>
+                <a href="/images/alternativy/3.jpg" data-lightbox="alternativy"
+                    data-title="Heru nebo máslo můžeme nahradit kokosovým tukem">
+                    <img src="/images/alternativy/thumb_3.jpg">
+                </a>
+                <a href="/images/alternativy/4.jpg" data-lightbox="alternativy"
+                    data-title="Čokoládá je lepší vysokoprocentní!">
+                    <img src="/images/alternativy/thumb_4.jpg">
+                </a>
             </article>
         </div>
         <div class="wrapper">
-            <article id="doplnky">
-                <h2 class="center">Doplňky</h2>
+            <article id="doplnky" class="center">
+                <h2>Doplňky</h2>
+                <a href="/images/alternativy/5.jpg" data-lightbox="doplnky"
+                    data-title="I zdravě si jde zlepšit jídlo">
+                    <img src="/images/alternativy/thumb_5.jpg">
+                </a>
             </article>
         </div>
 
-    </section>¨
+    </section>
+    <script src="js/lightbox-plus-jquery.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        lightbox.option({
+            "albumLabel": "%1/%2"
+        })
+    </script>
 </body>
 
 </html>
